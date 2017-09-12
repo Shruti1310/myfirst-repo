@@ -1,0 +1,6 @@
+This is Smaple text File
+Created in faster branch created by rajkumar
+I will soon be checking conflicts in it.
+After we will push the changes
+Below is the sample code
+for(int i=0;i<3;i++){}[D
