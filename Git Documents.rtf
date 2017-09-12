@@ -1,0 +1,171 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Consolas;
+\f3\fswiss\fcharset0 ArialMT;\f4\fnil\fcharset0 HelveticaNeue-Light;\f5\fnil\fcharset0 Monaco;
+\f6\fmodern\fcharset0 Courier;\f7\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red27\green31\blue34;\red255\green128\blue0;
+\red128\green0\blue128;\red0\green0\blue255;\red83\green83\blue83;\red47\green47\blue49;\red0\green0\blue0;
+\red43\green56\blue66;\red0\green0\blue0;\red255\green255\blue255;\red27\green29\blue31;\red255\green255\blue255;
+\red255\green0\blue0;\red38\green38\blue38;\red255\green0\blue255;\red235\green236\blue237;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c100000\c100000\c100000;\cssrgb\c14118\c16078\c18039;\csgenericrgb\c100000\c50000\c0;
+\csgenericrgb\c50000\c0\c50000;\csgenericrgb\c0\c0\c100000;\cssrgb\c40000\c40000\c40000;\cssrgb\c24314\c24314\c25098;\csgenericrgb\c0\c0\c0;
+\csgenericrgb\c16863\c21961\c25882;\cssrgb\c0\c0\c0;\csgray\c100000;\cssrgb\c14118\c15294\c16078;\cssrgb\c100000\c100000\c100000;
+\csgenericrgb\c100000\c0\c0;\cssrgb\c20000\c20000\c20000;\csgenericrgb\c100000\c0\c100000;\cssrgb\c93725\c94118\c94510;\csgray\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12160\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb2 \
+\pard\pardeftab720\sl460\partightenfactor0
+
+\f1\b\fs40 \cf3 \expnd0\expndtw0\kerning0
+create a new repository on the command line\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2\b0\fs28 \cf3  \
+\cf4   \cf5 git init\
+  git add README.md\
+  git commit -m "first commit"\
+  git remote add origin https://github.com/rajkumar24u/DummyRepository.git\
+  git push -u origin master\cf3 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\sl460\partightenfactor0
+
+\f1\b\fs40 \cf3 \expnd0\expndtw0\kerning0
+ push an existing repository from the command line\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2\b0\fs28 \cf5   git remote add origin https://github.com/rajkumar24u/DummyRepository.git\
+  git push -u origin master\cf3 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 	\
+\
+\
+1. 
+\fs36 \cf6 Init
+\fs24 \cf0  \
+		
+\f3\fs28 \cf7 \expnd0\expndtw0\kerning0
+Initializes a git repository \'96 creates the initial \'91.git\'92 directory in a new or in an existing project. Example: cd /home/user/my_new_git_folder/ git init. 
+\f4\fs32 \cf8 \
+\
+2. \cf6 git status\
+		 \cf8 As you write the screenplay, you will be changing the contents of the working directory. You can check the status of those changes with:\
+\
+3. \cf6 git add filename \
+		\cf8 We can add a file to the staging area with:\
+\pard\pardeftab720\sl340\partightenfactor0
+
+\f5\fs26 \cf9 \shad\shadx20\shady-20\shadr20\shado76 \shadc10 	   git add filename\
+\
+4. \cf6 git branch -d branchName\
+		
+\f3\fs32 \cf11 \shad0 To delete a local branch\
+\pard\pardeftab720\sl345\partightenfactor0
+
+\f6 \cf11 \
+5. \cf6 git branch\cf11 \
+		To get list of all branches\
+\
+6. \cf6 git branch name\cf11 \
+		To create a new branch\
+\cf9 7 
+\f3\fs28  \cf6 \cb12 \kerning1\expnd0\expndtw0 \CocoaLigature0 git checkout branch_Name\cf9 \
+		Switch to another branch\
+
+\f6\fs32 \cb2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 8. 
+\f3\fs28 \cf6 \cb12 \kerning1\expnd0\expndtw0 \CocoaLigature0 git checkout -f master\cf9 \
+		Switch to another branch forcefully. 
+\b \cf13 \cb14 \expnd0\expndtw0\kerning0
+\CocoaLigature1 Warning: This will delete the local files that are not indexed.
+\f6\b0 \cf11 \cb2 \
+
+\fs32 9. \cf6 git clone\cf11 \
+		
+\f3\fs28 \cf7 Makes a Git repository copy from a remote source. Also adds the original   location as a remote so you can fetch from it again and push to it if you have permissions. Example: git clone git@github.com:user/test.git\
+\
+\cf15 Change URL\cf7 \
+\cf9 10.\cf7  
+\f2\fs26 \cf6 git remote set-url origin https://github.com/rajkumar24u/ScrollViewDummy.git\cf13  
+\f6\fs32 \cf11 \
+	\cf9 	
+\f3\fs30 This will set the remote name to origin with the GitHub username of user.\
+\
+11. \cf6 git commit\cf13  puts your changes into your local repo, while git push sends your changes to the remote location.\
+\
+12. 
+\f6\fs36 \cf6 git pull \
+		
+\f1\fs28 \cf16 Fetch and merge changes on the remote server to your working directory\
+\
+13. \cf6 git merging two branches\
+\
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f2\fs26 \cf17 git checkout master\
+git pull origin master\
+git merge test\
+git push origin master\
+\
+\cf9 Change User with name and emails\
+\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf13 \cb18 $ git config --global user.name "Bob"\
+$ git config --global user.email "bob@example.com"\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf9 \cb2 \
+\pard\pardeftab720\sl640\sa220\partightenfactor0
+
+\f3\fs32 \cf9 To get git Directory URL\
+14.\cf6  
+\f2 git config --get remote.origin.url
+\fs26 \cf13 \
+\cf9 15.\cf17  conflict to branches or push from another user.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f7\fs28 \cf19 \cb12 \kerning1\expnd0\expndtw0 \CocoaLigature0 git remote add origin https://github.com/rajkumar24u/DummyRepository\
+git branch faster\
+git commit -m "fist commit by sunarc"\
+git checkout -b faster origin/remote_branch
+\f2 \cf17 \cb2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+
+\f7 \cf19 \cb12 \kerning1\expnd0\expndtw0 \CocoaLigature0 git push -u origin faster\
+
+\fs22 \
+16. \cf17 To Check login user name and emailId\cf19 \
+\
+\cf6 	git config user.name\
+	git config user.email\
+	git config \'97list (\cf9 Another way to show Git username or user related information\cf6 )\
+\cf19    
+\f2\fs26 \cf17 \cb2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\pardeftab720\sl300\partightenfactor0
+\cf13 17. git push -f origin master (\cf17 Force to commit\cf13 )\
+\pard\pardeftab720\sl345\partightenfactor0
+
+\f3\fs30 \cf13 \
+18. Git push with different user \
+\
+	
+\f2\fs26 \cf6 git remote set-url origin 
+\f7 \cb12 \kerning1\expnd0\expndtw0 \CocoaLigature0 https://github.com/rajkumar/GitConflict.git
+\f2 \cf13 \cb2 \expnd0\expndtw0\kerning0
+\CocoaLigature1  
+\f6\fs32 \cf11 \
+	\cf9 	
+\f3\fs30 This will set the remote name to origin with the GitHub username of username.\
+	\cf6 git init\
+	git add folder reference\
+	git commit -m \'93first commit by second user\'94\
+	git remote add origin \cb12 \kerning1\expnd0\expndtw0 \CocoaLigature0 https://github.com/rajkumar/GitConflict.git\
+	git push -u origin laster (branch_name)\
+	git push -f origin laster (forcefully push)\cb2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\cf13 \
+}
